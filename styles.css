@@ -2,9 +2,6 @@
 
 .navbar{
     padding: 1rem;
-    background-color: blueviolet;
-    justify-content: space-between;
-}
-.container-fluid{
+    background-color: burlywood;
     justify-content: space-between;
 }
