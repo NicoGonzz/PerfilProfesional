@@ -1,0 +1,10 @@
+/* Barra Navegacion */
+
+.navbar{
+    padding: 1rem;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+.container-fluid{
+    justify-content: space-between;
+}
