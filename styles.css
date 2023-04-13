@@ -2,6 +2,52 @@
 
 .navbar{
     padding: 1rem;
-    background-color: burlywood;
+    background-color: #f5f6f7;
     justify-content: space-between;
+}
+.navbar-collapse {
+ align-items: center;
+ justify-content: space-between;
+}
+/*Estilos*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    color:#f5f6f7;
+}
+.InformacionSobreMi{
+    color:white;
+    background-color: green;
+    border: 1px solid red;
+}
+/*Seccion Principal*/
+.principal{
+    background-color:#1b1b32;
+    min-height: 450px;
+    text-align: center;
+    border: 1px solid blue;
+}
+.imagen-perfil{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px 5px 0px 0px;
+    border:1px solid yellowgreen;
+}
+.principal h2{
+    font-size: 1.2rem;
+    color: dimgrey;
+}
+
+/* Responsive */
+@media screen and (max-widht: 767px){
+    .navbar-brand{
+        display: none;
+    }
 }
