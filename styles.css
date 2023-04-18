@@ -9,6 +9,9 @@
  align-items: center;
  justify-content: space-between;
 }
+.nav-link{
+    color :purple;
+}
 /*Estilos*/
 section{
     display: flex;
@@ -28,7 +31,8 @@ h1{
 }
 /*Seccion Principal*/
 .principal{
-    background-color:#1b1b32;
+    background-color:#000008;
+    background-image: url(images/código-de-la-escritura-de-java-en-la-pantalla-negra-96561817.jpg);
     min-height: 450px;
     text-align: center;
     border: 1px solid blue;
@@ -44,7 +48,46 @@ h1{
     font-size: 1.2rem;
     color: dimgrey;
 }
+/*Experiencia*/
 
+.experiencia{
+    padding:40px 40px 60px 40px;
+    color:black;
+    background-color: white;
+}
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+.experiencia i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #000008;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 3px;
+}
 /* Responsive */
 @media screen and (max-widht: 767px){
     .navbar-brand{
