@@ -10,7 +10,7 @@
  justify-content: space-between;
 }
 .nav-link{
-    color :purple;
+    color :black;
 }
 /*Estilos*/
 section{
@@ -18,6 +18,15 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Permanent Marker', cursive;
+}
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
 }
 h1{
     font-size: 1.5rem;
@@ -46,7 +55,7 @@ h1{
 }
 .principal h2{
     font-size: 1.2rem;
-    color: dimgrey;
+    color: azure;
 }
 /*Experiencia*/
 
@@ -88,6 +97,56 @@ h1{
 .badge{
     margin: 3px;
 }
+/*Proyectos*/
+.proyectos-recientes{
+    padding: 40px;
+    position: relative;
+}
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.descripcionProyecto1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.proyecto:hover .descripcionProyecto1 {
+    opacity: 1;
+  }
+/*.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.proyecto{
+    position: relative;
+}
+.proyecto:hover img{
+    opacity: 0.2;
+}
+.proyecto:hover.overlay{
+    opacity: 1;
+} /*
 /* Responsive */
 @media screen and (max-widht: 767px){
     .navbar-brand{
