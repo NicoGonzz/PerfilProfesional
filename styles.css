@@ -39,24 +39,49 @@ h1{
     border: 1px solid red;
 }
 /*Seccion Principal*/
-.principal{
-    background-color:#000008;
-    background-image: url(images/código-de-la-escritura-de-java-en-la-pantalla-negra-96561817.jpg);
+
+.align-items-stretch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 450px;
-    text-align: center;
+    flex-direction: row;
+    background-color:#000008;
     border: 1px solid blue;
 }
-.imagen-perfil{
+
+.align-items-stretch div {
+    min-height: 250px;
+    max-width: 285px;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.align-items-stretch .imagen-perfil {
+    margin-right: 4px;
     border-radius: 50%;
+    margin-right: 4px;
     width: 200px;
     height: 200px;
     margin: 10px 5px 0px 0px;
     border:1px solid yellowgreen;
 }
-.principal h2{
+
+.align-items-stretch h1 {
     font-size: 1.2rem;
     color: azure;
+    margin-top: 4px;
 }
+
+.align-items-stretch h2 {
+    font-size: 1.2rem;
+    color: azure;
+
+}
+
 /*Experiencia*/
 
 .experiencia{
