@@ -26,31 +26,49 @@ section{
 }
 .seccion-descripcion{
     font-size: 1.2rem;
-    color: #584e4e;
+    color: black;
 }
 h1{
     font-size: 1.5rem;
     font-family: 'Permanent Marker', cursive;
-    color:#f5f6f7;
+    color:black;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    color:black;
+    margin-left: 32px;
 }
 .InformacionSobreMi{
     color:white;
     background-color: green;
     border: 1px solid red;
 }
+/*Principal Page*/
+.principalPage{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.imagen-perfil{
+    width: 250px;
+    height: 250px;  
+    border-radius: 50%; 
+    border: 5px solid #7ade30;
+}
 /*Seccion Principal*/
-
+#mensajePrincipal{
+    color: black;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
 .align-items-stretch {
     margin: 0;
     text-align: center;
     color: #fefefe;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 450px;
-    flex-direction: row;
-    background-color:#000008;
-    border: 1px solid blue;*/
+
 }
 .contenedor3d{
     position: relative;
@@ -143,37 +161,7 @@ span{
     background-repeat: no-repeat;
     transform: rotateY(320deg) translateZ(430px);
 }
-/*.align-items-stretch div {
-    min-height: 250px;
-    max-width: 285px;
-    margin: auto;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.align-items-stretch .imagen-perfil {
-    margin-right: 4px;
-    border-radius: 50%;
-    margin-right: 4px;
-    width: 200px;
-    height: 200px;
-    margin: 10px 5px 0px 0px;
-    border:1px solid yellowgreen;
-}
-
-.align-items-stretch h1 {
-    font-size: 1.2rem;
-    color: azure;
-    margin-top: 4px;
-}
-
-.align-items-stretch h2 {
-    font-size: 1.2rem;
-    color: azure;
-
-}*/
 
 /*Experiencia*/
 
