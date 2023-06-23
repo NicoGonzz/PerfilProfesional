@@ -24,30 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     <!-- Barra Navegable-->
-    <!----> <nav class="navbar navbar-expand-md ">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-            <img src="images/curriculum-vitae.png" width="50" alt="LogoPaginaWeb">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+     <!-- Pagina principal-->
     <section class="principalPage" style="text-align: center; display: flex; flex-direction: row;">
      <div>
         <img class="imagen-perfil" src="images/FOTO NICOLAS HOJA DE VIDA.jpg" alt="FotoPerfil" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #7ade30;">
@@ -59,6 +36,22 @@
        </div>
        <h2 style="font-size: 1.5rem; font-family: 'Permanent Marker', cursive; color: black;">Frontend Developer</h2>
      </section>
+     <!--Redes Sociales-->
+     <section class="redes-sociales d-flex justify-content-between">
+      <div class="text-center">
+        <a href="https://github.com/NicoGonzz" target="_blank">
+          <i class="bi bi-github fs-1"></i>
+        </a>
+        <h1>Mi repositorio</h1>
+      </div>
+      <div class="text-center">
+        <a href="https://www.linkedin.com/in/juan-nicolas-gonzales-marin-0530a527" target="_blank">
+          <i class="bi bi-linkedin fs-1"></i>
+        </a>
+        <h2>Mi Linkedin</h2>
+      </div>
+    </section>
+    <!-- Aptitudes-->
      <div id="mensajePrincipal">
       <p>Mis aptitudes principales</p>
     </div>
@@ -77,7 +70,6 @@
         </div>
       </div>
      </section>
-
       <!-- Seccion Experiencia -->
      <section class="experiencia">
       <div class="container text-center">
@@ -123,23 +115,9 @@
               </div>
           </div>
       </div>
-
-     </section>
-     <!-- Proyectos -->
-     <section>
-      <div class="text-center">
-        <a href="https://github.com/NicoGonzz" target="_blank">
-          <i class="bi bi-github fs-1"></i>
-        </a>
-        <h1>Mi repositorio</h1>
-      </div>
-      <div class="text-center">
-        <a href="https://www.linkedin.com/in/juan-nicolas-gonzales-marin-0530a527" target="_blank">
-          <i class="bi bi-linkedin fs-1"></i>
-        </a>
-        <h2>Mi Linkedin</h2>
-      </div>
     </section>
+     </section="d-flex flex-column">
+     <!-- Proyectos -->
      <section class="proyectos-recientes d-flex flex-column">
       <h2 class="seccion-titulo">Proyectos</h2>
       <h3 class="seccion-descripcion">Algunos proyectos en los cuales muestro mis habilidades y destrezas </h3>

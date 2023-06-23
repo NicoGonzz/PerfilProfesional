@@ -1,5 +1,7 @@
 /* Barra Navegacion */
-
+body{
+    background-size: auto;
+}
 .navbar{
     padding: 1rem;
     background-color: #f5f6f7;
@@ -203,6 +205,31 @@ span{
 .badge{
     margin: 3px;
 }
+/* Redes Sociales -linkedin -Github*/
+.redes-sociales {
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  
+  .bi-github::before {
+    content: "\f3ed";
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #000008;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.bi-linkedin::before {
+    content: "\f472";
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #000008;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
 /*Proyectos*/
 .proyectos-recientes{
     padding: 40px;
