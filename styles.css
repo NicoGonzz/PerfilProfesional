@@ -276,30 +276,26 @@ span{
 .proyecto:hover .descripcionProyecto2 {
     opacity: 1;
   }
-/*.overlay{
-    transition: all 0.2s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
-    text-align: center;
+
+/*Footer*/
+.footer{
+    background-color: rgb(236, 234, 229);
 }
-.overlay p{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
+.certificate-title{
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
 }
-.proyecto{
-    position: relative;
+.fas{
+    font-size: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
 }
-.proyecto:hover img{
-    opacity: 0.2;
+.cert{
+    font-size: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
 }
-.proyecto:hover.overlay{
-    opacity: 1;
-} /*
-/*FRAMES*/
+
 @keyframes rotate360 {
         from {
             transform: rotateY(0deg);
