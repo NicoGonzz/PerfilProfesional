@@ -305,8 +305,30 @@ span{
         }
 }
 /* Responsive */
-@media screen and (max-widht: 767px){
+@media (max-width: 767px){
+    .redes-sociales {
+        flex-direction: row; /* Cambia la dirección de flex a columna */
+        margin: 10px; 
+      }
+      .github {
+        display: flex;
+        align-items: center;
+      }
+      .linkedin {
+        display: flex;
+        align-items: center; /* Alinea a la derecha */
+    }
     .navbar-brand{
         display: none;
+    }
+    .rueda{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 35s infinite forwards linear;
+    }
+    .imagenContenedor{
+        width: 250px;
     }
 }
